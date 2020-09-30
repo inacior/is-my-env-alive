@@ -1,8 +1,9 @@
 {
   "name": "is-my-env-alive",
   "version": "0.0.1",
-  "description": "A package thats help you to check if your enviroment projects is alive!",
+  "description": "A package thats help you to check if your environment projects is alive!",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +20,6 @@
   "dependencies": {
     "axios": "^0.20.0",
     "commander": "^6.1.0",
-    "ora": "^5.1.0"
+    "spinnies": "^0.5.1"
   }
 }

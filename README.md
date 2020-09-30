@@ -1,4 +1,4 @@
-Is my enviroment alive?
+Is my environment alive?
 ======================
 
 :star: Star us on GitHub — it helps!
