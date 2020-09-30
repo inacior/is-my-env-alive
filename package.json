@@ -1,10 +1,11 @@
 {
   "name": "is-my-env-alive",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A package thats help you to check if your environment projects is alive!",
   "main": "lib/check.js",
   "type": "module",
   "bin": "./bin/check.js",
+  "preferGlobal": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

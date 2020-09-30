@@ -3,7 +3,7 @@
 import check from '../lib/check.js'
 import commander from 'commander';
 
-commander.version('0.0.4');
+commander.version('0.0.1');
 
 commander
   .option('-e, --env <string>', 'environment to check')
