@@ -1,0 +1,24 @@
+{
+  "name": "is-my-env-alive",
+  "version": "0.0.1",
+  "description": "A package thats help you to check if your enviroment projects is alive!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inacior/is-my-env-alive.git"
+  },
+  "author": "Renan Inacio <renaninacio.13@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/inacior/is-my-env-alive/issues"
+  },
+  "homepage": "https://github.com/inacior/is-my-env-alive#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "commander": "^6.1.0",
+    "ora": "^5.1.0"
+  }
+}
