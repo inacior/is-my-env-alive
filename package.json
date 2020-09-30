@@ -1,6 +1,6 @@
 {
   "name": "is-my-env-alive",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A package thats help you to check if your environment projects is alive!",
   "main": "lib/check.js",
   "type": "module",
