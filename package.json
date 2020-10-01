@@ -3,11 +3,10 @@
   "version": "0.0.5",
   "description": "A package thats help you to check if your environment projects is alive!",
   "main": "lib/check.js",
-  "type": "module",
-  "bin": "./bin/check.js",
+  "bin": "./dist/command.js",
   "preferGlobal": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel lib -d dist"
   },
   "repository": {
     "type": "git",
@@ -23,5 +22,10 @@
     "axios": "^0.20.0",
     "commander": "^6.1.0",
     "spinnies": "^0.5.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5"
   }
 }
