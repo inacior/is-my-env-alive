@@ -1,0 +1,20 @@
+{
+  "stage": {
+    "bacon-ipsum": {
+      "url": "https://baconipsum.com/api/?type=all-meat&paras=1",
+      "status": 200
+    },
+    "bacon-ipsum-fail": {
+      "url": "https://baconipsum.com.fail/api/?type=all-meat&paras=1",
+      "status": 200
+    },
+    "loripsum": {
+      "url": "https://loripsum.net/api/1/short",
+      "status": 200
+    },
+    "yes-or-no": {
+      "url": "https://yesno.wtf/api",
+      "status": 200
+    }
+  }
+}

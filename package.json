@@ -21,7 +21,9 @@
   "homepage": "https://github.com/inacior/is-my-env-alive#readme",
   "dependencies": {
     "axios": "^0.20.0",
+    "chalk": "^4.1.0",
     "commander": "^6.1.0",
+    "fs-extra": "^9.0.1",
     "spinnies": "^0.5.1"
   },
   "devDependencies": {
