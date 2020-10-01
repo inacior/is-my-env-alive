@@ -1,12 +1,13 @@
 {
   "name": "is-my-env-alive",
-  "version": "0.0.5",
+  "version": "0.0.8-alpha",
   "description": "A package thats help you to check if your environment projects is alive!",
   "main": "lib/check.js",
   "bin": "./dist/command.js",
   "preferGlobal": true,
   "scripts": {
-    "build": "babel lib -d dist"
+    "build": "babel lib -d dist",
+    "publish:npm": "npm run build && npm publish"
   },
   "repository": {
     "type": "git",
