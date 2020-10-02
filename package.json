@@ -1,12 +1,12 @@
 {
   "name": "is-my-env-alive",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A package thats help you to check if your environment projects is alive!",
-  "main": "lib/check.js",
+  "main": "dist/check.js",
   "bin": "./dist/command.js",
   "preferGlobal": true,
   "scripts": {
-    "build": "babel lib -d dist",
+    "build": "webpack --config webpack.config.js",
     "publish:npm": "npm run build && npm publish"
   },
   "repository": {
@@ -29,6 +29,8 @@
   "devDependencies": {
     "@babel/cli": "^7.11.6",
     "@babel/core": "^7.11.6",
-    "@babel/preset-env": "^7.11.5"
+    "@babel/preset-env": "^7.11.5",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
   }
 }
