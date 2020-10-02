@@ -59,7 +59,7 @@ Insira seus ambientes e projetos
 ## Usage
 
 ```bash
-is-my-env-alive stage -f projects.json
+is-my-env-alive -e stage -f projects.json
 ```
 
 ## JSON Structure
