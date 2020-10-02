@@ -1,0 +1,12 @@
+{
+  "MOCK": {
+    "__PROJECT-1__": {
+      "url": "__URL-1__",
+      "status": "__STATUS-1__"
+    },
+    "__PROJECT-2__": {
+      "url": "__URL-2__",
+      "status": "__STATUS-2__"
+    }
+  }
+}
