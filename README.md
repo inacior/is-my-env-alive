@@ -3,7 +3,7 @@ Is my environment alive?
 
 :star: Star us on GitHub — it helps!
 
-[is-my-env-alive](https://to-do-link) é um simples projeto que te ajuda a verificar - de maneira facil e rapida - se todas as suas APIs ou Frontends estão on-line!
+[is-my-env-alive](https://to-do-link) is a simple project that helps you to check - easily and quickly - if all your APIs or Frontends are online!
 
 ## Table of content
 
@@ -28,7 +28,7 @@ touch projects.json
 vi projects.json
 ```
 
-Insira seus ambientes e projetos
+Insert your environments and projects
 
 ```json
 {
@@ -66,10 +66,10 @@ is-my-env-alive -e stage -f projects.json
 
 
 `url` \
-Rota que sera apontada na requisicao para validar se a API esta on-line ou nao
+Endpoint that will be pointed out in the request to validate whether the API is online or not
 
 `status` \
-Status esperado da _url_ para definir que a API esta on-line
+Expected _url_ status to define that the API is online
 
 ## License
 
