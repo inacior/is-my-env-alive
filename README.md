@@ -5,6 +5,8 @@ Is my environment alive?
 
 [is-my-env-alive](https://to-do-link) is a simple project that helps you to check - easily and quickly - if all your APIs or Frontends are online!
 
+![Example](example.png "Example")
+
 ## Table of content
 
 - [Installation](#installation)
