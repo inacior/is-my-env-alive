@@ -19,8 +19,7 @@
 		"plugin:jsdoc/recommended"
 	],
 	"plugins": [
-		"jsdoc",
-		"@babel/plugin-proposal-class-properties"
+		"jsdoc"
 	],
 	"rules": {
 		"accessor-pairs": 2,
