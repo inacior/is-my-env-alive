@@ -17,6 +17,14 @@ jest.mock('spinnies', () => class MockSpinnies {
 jest.mock('axios', () => {
   return {
     get: jest.fn(),
+    interceptors: {
+      request: {
+        use: jest.fn()
+      },
+      response: {
+        use: jest.fn()
+      }
+    }
   }
 });
 
