@@ -9,7 +9,8 @@
 		"build": "webpack --config webpack.config.js",
 		"test": "jest",
 		"test:coverage": "jest --coverage",
-		"lint": "eslint 'lib/**/*.js' --fix"
+		"lint": "eslint 'lib/**/*.js'",
+		"lint:fix": "eslint 'lib/**/*.js' --fix"
 	},
 	"repository": {
 		"type": "git",
