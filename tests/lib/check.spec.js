@@ -11,10 +11,12 @@ const mockConsoleLog = jest.fn();
 jest.mock(
   'spinnies',
   () =>
-    function MockSpinnies() {
-      this.add = jest.fn();
-      this.fail = jest.fn();
-      this.succeed = jest.fn();
+    class MockSpinnies {
+      add = jest.fn();
+
+      fail = jest.fn();
+
+      succeed = jest.fn();
     }
 );
 
