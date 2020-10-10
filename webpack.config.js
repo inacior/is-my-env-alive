@@ -22,16 +22,21 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(mjs|js|jsx)$/,
+        test: /\.js$/,
         exclude: /node_modules/,
         loader: 'babel-loader',
         options: {
           presets: [
-            '@babel/preset-env',
-            {
-              plugins: ['@babel/plugin-proposal-class-properties'],
-            },
+            [
+              '@babel/preset-env',
+              {
+                targets: {
+                  node: 'current',
+                },
+              },
+            ],
           ],
+          plugins: ['@babel/plugin-proposal-class-properties'],
         },
       },
     ],
