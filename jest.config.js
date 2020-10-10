@@ -1,9 +1,4 @@
 module.exports = {
-  coveragePathIgnorePatterns: [
-    "/node_modules/",
-    "/dist"
-  ],
-  collectCoverageFrom: [
-    "lib/**/*.js"
-  ]
-}
+  coveragePathIgnorePatterns: ['/node_modules/', '/dist'],
+  collectCoverageFrom: ['lib/**/*.js'],
+};
